@@ -5,7 +5,7 @@ const PostsListing = () => {
   const [allposts, setallposts] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allposts").then((res) => {
+    axios.get("https://postsphere-4l24.onrender.com//allposts").then((res) => {
       console.log(res.data);
       setallposts(res.data);
     });

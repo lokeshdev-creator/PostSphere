@@ -12,7 +12,7 @@ const Signup = () => {
   const handleSignup = (e) => {
     e.preventDefault();
     // Note: passport-local-mongoose doesn't require a password field in schema
-        const response = axios.post("http://localhost:3002/signup",{
+        const response = axios.post("https://postsphere-4l24.onrender.com//signup",{
             username:username,
             email:email,
             password:password
