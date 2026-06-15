@@ -1,7 +1,5 @@
 import React from "react";
-import Profile from "./profile";
 import PostsListing from "./PostsListing";
-import About from "./About";
 import { Route,Router } from "react-router";
 const Home=()=>{
     return (
