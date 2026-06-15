@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
+
 const Profile=()=>{
     return(
         <div className="card profile" style={{width: "25rem", height:"450px" , backgroundColor:"red"}} >
